@@ -7,12 +7,16 @@ files_to_generate:
   - paper-button/paper-button.html
   - paper-button/paper-button-base.html
   - paper-checkbox/paper-checkbox.html
+  - paper-dialog/paper-action-dialog.html
   - paper-dialog/paper-dialog.html
+  - paper-dialog/paper-dialog-base.html
   - paper-dialog/paper-dialog-transition.html
   - paper-dropdown-menu/paper-dropdown-menu.html
   - paper-fab/paper-fab.html
   - paper-icon-button/paper-icon-button.html
+  - paper-input/paper-autogrow-textarea.html
   - paper-input/paper-input.html
+  - paper-input/paper-input-decorator.html
   - paper-item/paper-item.html
   - paper-menu-button/paper-menu-button.html
   - paper-progress/paper-progress.html
