@@ -71,3 +71,4 @@ deletion_patterns:
   - ^core-
   - ^platform$
   - ^polymer$
+  - ^webcomponentsjs$
