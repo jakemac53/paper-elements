@@ -9,13 +9,18 @@ import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'paper_button_base.dart';
 
-/// Material Design: <a href="https://spec.googleplex.com/quantum/components/buttons.html">Buttons</a>
+/// Material Design: <a href="http://www.google.com/design/spec/components/buttons.html">Buttons</a>
 ///
 /// `paper-icon-button` is a button with an image placed at the center. When the user touches
 /// the button, a ripple effect emanates from the center of the button.
 ///
-/// You may import `core-icons` to use with this element, or provide an URL to a custom icon.
-/// See `core-iconset` for more information about how to use a custom icon set.
+/// `paper-icon-button` includes a default icon set.  Use `icon` to specify which icon
+/// from the icon set to use.
+///
+///     <paper-icon-button icon="menu"></paper-icon-button>
+///
+/// See [`core-iconset`](#core-iconset) for more information about
+/// how to use a custom icon set.
 ///
 /// Example:
 ///

@@ -45,6 +45,13 @@ import 'package:custom_element_apigen/src/common.dart' show DomProxyMixin;
 ///       left: 10px;
 ///     }
 ///
+/// To position the toast to the right:
+///
+///     paper-toast {
+///       right: 10px;
+///       left: auto;
+///     }
+///
 /// To make it fit at the bottom of the screen:
 ///
 ///     paper-toast {
@@ -79,6 +86,12 @@ class PaperToast extends HtmlElement with DomProxyMixin {
   /// If true, the toast can't be swiped.
   bool get swipeDisabled => jsElement['swipeDisabled'];
   set swipeDisabled(bool value) { jsElement['swipeDisabled'] = value; }
+
+  /// By default, the toast will close automatically if the user taps
+  /// outside it or presses the escape key. Disable this behavior by setting
+  /// the `autoCloseDisabled` property to true.
+  bool get autoCloseDisabled => jsElement['autoCloseDisabled'];
+  set autoCloseDisabled(bool value) { jsElement['autoCloseDisabled'] = value; }
 
   /// Toggle the opened state of the toast.
   void toggle() =>

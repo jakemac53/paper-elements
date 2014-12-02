@@ -44,9 +44,9 @@ import 'package:core_elements/core_range.dart';
 ///       background-color: #0f9d58;
 ///     }
 ///
-/// To change the slider pin's value:
+/// To change the slider pin's font color:
 ///
-///     paper-slider::shadow #sliderKnobInner::after {
+///     paper-slider::shadow #sliderKnob > #sliderKnobInner::after {
 ///       color: #0f9d58
 ///     }
 ///

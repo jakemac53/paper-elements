@@ -19,12 +19,13 @@ import 'paper_button_base.dart';
 ///
 ///     <paper-button>flat button</paper-button>
 ///     <paper-button raised>raised button</paper-button>
+///     <paper-button noink>No ripple effect</paper-button>
 ///
 /// You may use custom DOM in the button body to create a variety of buttons. For example, to
 /// create a button with an icon and some text:
 ///
 ///     <paper-button>
-///       <core-icon icon="favorite">
+///       <core-icon icon="favorite"></core-icon>
 ///       custom button content
 ///     </paper-button>
 ///

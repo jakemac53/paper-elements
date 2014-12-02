@@ -9,10 +9,10 @@ import 'package:web_components/interop.dart' show registerDartType;
 import 'package:polymer/polymer.dart' show initMethod;
 import 'paper_button_base.dart';
 
-/// Material Design: <a href="https://spec.googleplex.com/quantum/components/buttons.html">Button</a>
+/// Material Design: <a href="http://www.google.com/design/spec/components/buttons.html">Button</a>
 ///
 /// `paper-fab` is a floating action button. It contains an image placed in the center and
-/// comes in two sizes: regular size and a smaller size by applying the class `mini`. When
+/// comes in two sizes: regular size and a smaller size by applying the attribute `mini`. When
 /// the user touches the button, a ripple effect emanates from the center of the button.
 ///
 /// You may import `core-icons` to use with this element, or provide an URL to a custom icon.

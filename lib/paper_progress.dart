@@ -50,6 +50,10 @@ class PaperProgress extends CoreRange {
   /// The number that represents the current secondary progress.
   num get secondaryProgress => jsElement['secondaryProgress'];
   set secondaryProgress(num value) { jsElement['secondaryProgress'] = value; }
+
+  /// Use an indeterminate progress indicator.
+  bool get indeterminate => jsElement['indeterminate'];
+  set indeterminate(bool value) { jsElement['indeterminate'] = value; }
 }
 @initMethod
 upgradePaperProgress() => registerDartType('paper-progress', PaperProgress);
