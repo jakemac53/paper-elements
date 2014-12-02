@@ -30,6 +30,11 @@ class PaperShadow extends HtmlElement with DomProxyMixin {
   /// `z` value.
   bool get animated => jsElement['animated'];
   set animated(bool value) { jsElement['animated'] = value; }
+
+  /// Set the z-depth of the shadow. This should be used after element
+  /// creation instead of setting the z property directly.
+  void setZ(newZ) =>
+      jsElement.callMethod('setZ', [newZ]);
 }
 @initMethod
 upgradePaperShadow() => registerDartType('paper-shadow', PaperShadow);
