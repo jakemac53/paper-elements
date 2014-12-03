@@ -3,7 +3,7 @@ import 'package:polymer/polymer.dart';
 import 'package:paper_elements/paper_dialog.dart';
 import 'package:paper_elements/paper_dialog_base.dart';
 
-class MyModel {
+class MyModel extends Observable {
   List<String> transitions = const [
     'core-transition-center',
     'core-transition-top',
@@ -11,7 +11,7 @@ class MyModel {
     'core-transition-left',
     'core-transition-right'
   ];
-  String transition;
+  @observable String transition;
 
   void toggleDialog1 (e) {
     if (e.target.localName != 'button') {
