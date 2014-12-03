@@ -2,6 +2,7 @@
   * Updated to match JS version 0.5.1.
     * **New Element** `paper-spinner` is a new element that provides a material
       design loading spinner.
+    * **New Element** `paper-dropdown` is a new material design styled dropdown.
     * **Breaking Change** `paper-input` has had a lot of changes. Namely, it no
       longer supports the `multiline` property. There are two new elements which
       can be used to duplicate the old functionality, `paper-input-decorator`

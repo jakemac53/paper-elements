@@ -11,6 +11,8 @@ files_to_generate:
   - paper-dialog/paper-dialog.html
   - paper-dialog/paper-dialog-base.html
   - paper-dialog/paper-dialog-transition.html
+  - paper-dropdown/paper-dropdown.html
+  - paper-dropdown/paper-dropdown-transition.html
   - paper-dropdown-menu/paper-dropdown-menu.html
   - paper-fab/paper-fab.html
   - paper-icon-button/paper-icon-button.html
